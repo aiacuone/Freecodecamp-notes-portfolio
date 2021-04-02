@@ -126,7 +126,6 @@ align-items: center;
 .sub_topics{
     width: 50%;
     height: 80%;
-    /* background: blue; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
