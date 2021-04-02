@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+.app {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    background: rgb(204, 203, 203);
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.main_section{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.intro_paragraph {
+    padding: 20px;
+    background: white;
+    color: grey;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.intro {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+}
+
+.intro_continue {
+background: grey;
+padding: 5px 10px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.intro_logo {
+    width: 250px;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 10%;
+    
+}
+.footer p, a{
+    color: rgb(136, 136, 136);
+    font-size: .8em;
+}
+
+
+/*MAIN CONTENT*/
+.main_content{
+width: 100%;
+height: 100%;
+/* background: green; */
+display: flex;
+justify-items: center;
+align-items: center;
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background: white;
+    /* justify-items: center; */
+    position: relative;
+}
+
+.header_logo{
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.topics{
+    /* background: green; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.topic{
+    width: 150px;
+    margin: 1px 20px;
+    background: white;
+    padding: 10px;
+    color: rgb(141, 141, 141);
+    text-align: center;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.sub_topic{
+    /* height: 30px; */
+    background: white;
+    color: grey;
+    width: 160px;
+    padding: 5px 10px;
+    margin: 1px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.sub_topics{
+    width: 50%;
+    height: 80%;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.topic_certificate{
+    width: 160px;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
